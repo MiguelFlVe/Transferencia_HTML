@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="title" content="Portafolio - Miguel Flórez">
+  <meta name="description" content="Se ofrecen servicios de diseño frontend y backend">
+  <meta name="keywords" content="frontend, backend, miguel flórez, portafolio">
   <title>Contacto</title>
 </head>
 <body>
@@ -21,39 +24,38 @@
       <legend>Formulario de Contacto</legend>
 
       <form action="Recibido_Contacto.html">
-        <div>
-          <label for="Nombre">Nombre:
-            <input type="text" id="Nombre" required>
-          </label>
-        </div>
+        <table>
+          <tbody>
+            <tr>
+              <td><label for="Nombre">Nombre:</label></td>
+              <td><input type="text" id="Nombre" required></td>
+            </tr>
 
-        <div>
-          <label for="Teléfono">Teléfono:
-            <input type="number" id="Teléfono" required>
-          </label>
-        </div>
+            <tr>
+              <td><label for="Teléfono">Teléfono:</label></td>
+              <td><input type="number" id="Teléfono" required></td>
+            </tr>
 
-        <div>
-          <label for="Fecha">Fecha:
-            <input type="date" id="Fecha" required>
-          </label>
-        </div>
+            <tr>
+              <td><label for="Fecha">Fecha:</label></td>
+              <td><input type="date" id="Fecha" required></td>
+            </tr>
 
-        <div>
-          <label for="Asunto">Asunto:
-            <input type="text" id="Asunto" required>
-          </label>
-        </div>
+            <tr>
+              <td><label for="Asunto">Asunto:</label></td>
+              <td><input type="text" id="Asunto" required></td>
+            </tr>
 
-        <div>
-          <label for="Mensaje">Mensaje:
-            <textarea id="Mensaje" required></textarea>
-          </label>
-        </div>
+            <tr>
+              <td><label for="Mensaje">Mensaje:</label></td>
+              <td><textarea id="Mensaje" required></textarea></td>
+            </tr>
 
-        <div>
-          <button type="submit">Enviar</button>
-        </div>
+            <tr>
+              <td><button type="submit">Enviar</button></td>
+            </tr>
+          </tbody>
+        </table>
       </form>
     </fieldset>
   </main>
