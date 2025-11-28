@@ -1,0 +1,170 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: antiquewhite;
+}
+
+nav {
+  margin: 0px;
+  padding: 5px;
+  background-color: mediumaquamarine;
+}
+
+#audioarriba {
+  margin: 15px;
+}
+
+nav a {
+  margin: 5px;
+  padding: 2px;
+  color: crimson;
+  background-color: mediumaquamarine;
+  border: 2px dotted black;
+  font-size: 18px;
+}
+
+article {
+  margin: 10px;
+  padding: 20px;
+  border: 2px double;
+}
+
+p {
+  color: darkblue;
+  margin: 15px;
+  padding: 15px;
+  background-color: lightgray;
+}
+
+p a {
+  background-color: lightgray;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+video {
+  width: 500px;
+  margin: auto;
+  border: 3px solid white;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+fieldset {
+  margin: 10px;
+  padding: 10px;
+  background-color: lightgray;
+}
+
+fieldset legend {
+  margin: 5px;
+  padding: 5px;
+  color: black;
+  font-size: 25px;
+  background-color: #00ff2a;
+  display: flex;
+  text-align: center;
+}
+
+fieldset table {
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+  font-size: 20px;
+  border: 5px solid whitesmoke;
+}
+
+fieldset table thead th {
+  margin: 5px;
+  padding: 5px;
+  background-color: white;
+}
+
+fieldset table tbody td {
+  margin: 5px;
+  padding: 5px;
+  background-color: white;
+}
+
+fieldset table tbody td a {
+  margin: 5px;
+  padding: 5px;
+  background-color: white;
+}
+
+fieldset form {
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+  font-size: 20px;
+  border: 5px solid whitesmoke;
+  display: flex;
+  justify-content: center;
+}
+
+fieldset form table {
+  background-color: white;
+}
+
+fieldset form table tbody {
+  background-color: white;
+}
+
+fieldset form table td {
+  background-color: white;
+}
+
+fieldset form table td label {
+  background-color: white;
+}
+
+fieldset form table td input {
+  background-color: lightgray;
+}
+
+fieldset form table td textarea {
+  background-color: lightgray;
+}
+
+fieldset form table td button {
+  background-color: lightgray;
+}
+
+fieldset aside {
+  margin: 5px;
+  padding: 5px;
+  background-color: white;
+  border: 5px solid whitesmoke;
+}
+
+fieldset aside div {
+  background-color: white;
+}
+
+fieldset aside div a {
+  background-color: white;
+}
+
+fieldset form div {
+  background-color: white;
+}
+
+fieldset form div label {
+  background-color: white;
+}
+
+fieldset form div label input {
+  background-color: lightgray;
+}
+
+fieldset form button {
+  background-color: lightgray;
+}

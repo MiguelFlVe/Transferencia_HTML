@@ -1,0 +1,74 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+}
+
+header{
+  background-color: darkblue;
+}
+
+header nav{
+  margin: 5px;
+  padding: 5px;
+  background-color: darkblue;
+}
+
+header nav a{
+  background-color: darkblue;
+}
+
+header div{
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  background-color: darkblue;
+}
+
+header div audio{
+  background-color: darkblue;
+}
+
+main{
+  margin: 5px;
+  padding: 5px;
+  color: lightblue;
+}
+
+h1{
+  font-size: 45px;
+  text-align: center;
+  color: lightblue;
+}
+
+article{
+  margin: 10px;
+  padding: 10px;
+  text-align: left;
+  color: white;
+}
+
+fieldset{
+  margin: 10px;
+  padding: 10px;
+  width: fit-content;
+  color: red;
+  border: 1px solid white;
+}
+
+a{
+  color: crimson;
+}
+
+video{
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  border-radius: 25px;
+}
+
+audio{
+  margin: 10px;
+}

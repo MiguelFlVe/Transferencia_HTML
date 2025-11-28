@@ -6,6 +6,7 @@
   <meta name="title" content="Portafolio - Miguel Flórez">
   <meta name="description" content="Se ofrecen servicios de diseño frontend y backend">
   <meta name="keywords" content="frontend, backend, miguel flórez, portafolio">
+  <link rel="stylesheet" href="../styles.css">
   <title>Productos</title>
 </head>
 <body>
@@ -18,7 +19,7 @@
       <a href="Contact.html">Contacto</a>
     </nav>
 
-    <div><audio src="../Audio/abstract-powerful-intro-207075.mp3" controls autoplay></audio></div>
+    <div><audio id="audioarriba" src="../Audio/abstract-powerful-intro-207075.mp3" controls autoplay></audio></div>
   </header>
 
   <main>
@@ -68,17 +69,19 @@
           </label>
         </div>
 
-        <label for="card">Número y tipo de tarjeta:
-          <input type="number" name="card">
-          
-          <div>
-            <label for="cred">Crédito</label><input type="radio" id="cred" name="card">
-          </div>
+        <div>
+          <label for="card">Número y tipo de tarjeta:
+            <input type="number" name="card">
+            
+            <div>
+              <label for="cred">Crédito</label><input type="radio" id="cred" name="card">
+            </div>
 
-          <div>
-            <label for="save">Ahorros</label><input type="radio" id="save" name="card">
-          </div>
-        </label>
+            <div>
+              <label for="save">Ahorros</label><input type="radio" id="save" name="card">
+            </div>
+          </label>
+        </div>
 
         <button type="submit">Comprar</button>
       </form>
