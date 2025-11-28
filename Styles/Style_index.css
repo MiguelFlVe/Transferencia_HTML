@@ -18,18 +18,6 @@ header nav a{
   background-color: darkblue;
 }
 
-header div{
-  margin: 5px;
-  padding: 5px;
-  display: flex;
-  justify-content: center;
-  background-color: darkblue;
-}
-
-header div audio{
-  background-color: darkblue;
-}
-
 main{
   margin: 5px;
   padding: 5px;
